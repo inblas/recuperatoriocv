@@ -5,6 +5,13 @@
     margin: 0px;
     padding:0px;
 }
+@font-face {
+font-family: Ginebra;
+src: url("Ginebra.eot");
+src: url("Ginebra.woff") format("woff"),
+url("Ginebra.otf") format("opentype"),
+url("Ginebra.svg#filename") format("svg");
+}
 #encabezado{
 	background-color:#DEC68D;
 	height: 100%;
