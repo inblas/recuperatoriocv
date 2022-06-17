@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formulario de contacto</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body id="bodycontacto">
+	<main>
+		<h1 class="titulogaleria">Contacto</h1>
+		<a href="index.html">
+			<img class="flechahome" src="img/flechaizq.png" width="30px" alt="home"/>
+		</a>
+		<form method="post" action="mailto:ingrideliblas@hotmail.com?subject=formulario" target="_blank" enctype="multipart/form-data">
+			<div>
+				<label for="Nombre">Nombre completo:</label>
+				<input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Ej.: Juan Garcia" required>
+
+				<label for="Email">Email:</label>
+				<input type="email" name="Email" id="Email" maxlength="40" placeholder="Ej.: juangarcia@hotmail.com" required>
+
+				<label for="Telefono">Telefono:</label>
+				<input type="tel" name="Telefono" id="Telefono" placeholder="(+00)1123456789" required>
+
+				<label for="Archivos">Archivos:</label>
+				<input type="file" name="Archivos" id="archivos">
+			</div>
+			<div>
+				<label for="Mensaje o consulta"> Mensaje o consulta</label>
+				<textarea name="Mensaje o consulta" id="Mensaje" required> Escribe aqui</textarea>
+			</div>
+			
+			<input type="submit" formenctype="multipart/form-data" class="boton" >
+			
+		</form>
+	</main>
+</body>
+</html>
