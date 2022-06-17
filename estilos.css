@@ -6,7 +6,7 @@
     padding:0px;
 }
 @font-face {
-font-family: Ginebra;
+font-family: "Ginebra";
 src: url("Ginebra.eot");
 src: url("Ginebra.woff") format("woff"),
 url("Ginebra.otf") format("opentype"),
@@ -68,7 +68,7 @@ h3 {
 	font-size: 30px;
 	padding-left: 10px;
 }
-.texto{
+p{
 	font-size: 25px;
 	margin-left: 10px;
 	width: 100%;
@@ -276,7 +276,7 @@ label{
 	.informacion{
 		width: 100%;
 	}
-	.texto{
+	p{
 	width: 80%;
 	display: flex;
 	align-content: center;
